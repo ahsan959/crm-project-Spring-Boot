@@ -20,6 +20,16 @@ public class Employee
 
      private String phone;
 
+     public String getPassword() {
+          return password;
+     }
+
+     public void setPassword(String password) {
+          this.password = password;
+     }
+
+     private String password;
+
      public int getEmpId() {
           return empId;
      }

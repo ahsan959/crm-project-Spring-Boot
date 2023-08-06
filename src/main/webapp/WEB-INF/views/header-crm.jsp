@@ -15,6 +15,7 @@
             </div>
             <div class="col-6"> </div>
             <div class="col-3">
+                <h4>welcome:${session_employee.getName()}</h4>
                 <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown"> More </button>
                 <ul class="dropdown-menu">
                     <!-- <li> <a href="#" class="dropdown-item bg-secondary text-light"> Home </a> </li> -->

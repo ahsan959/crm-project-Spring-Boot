@@ -91,6 +91,11 @@
             <label for="firstName">Employee name</label>
             <input type="text" id="lastName" name="name" required>
         </div>
+
+        <div class="form-group">
+            <label for="firstName">Employee name</label>
+            <input type="password" id="pass" name="password" required>
+        </div>
         <div class="form-group">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>

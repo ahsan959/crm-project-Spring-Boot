@@ -11,14 +11,10 @@ public class CrmProjectApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CrmProjectApplication.class, args);
+        System.out.println("Server Started...");
     }
 
-    @Bean
-    public ObjectMapper objectMapper() {
-        return Jackson2ObjectMapperBuilder
-                .json()
-                .build();
-    }
+
 }
 
 
